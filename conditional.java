@@ -3,13 +3,13 @@ import java.util.Scanner;
 public class conditional {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int x = sc.nextInt();
-        // if(age > 18){
-        // System.out.println("ADULT");
-        // }
-        // else{
-        // System.out.println("NOT ADULT");
-        // }
+        int age = sc.nextInt();
+        if(age > 18){
+        System.out.println("ADULT");
+        }
+        else{
+        System.out.println("NOT ADULT");
+        }
         // if (age>5) {
         // System.out.println("good");
 
@@ -17,12 +17,12 @@ public class conditional {
         // System.out.println("bad");
 
         // }
-        if (x % 2 == 0) {
-            System.out.println("even");
+        // if (x % 2 == 0) {
+        //     System.out.println("even");
 
-        } else {
-            System.out.println("odd");
-        }
+        // } else {
+        //     System.out.println("odd");
+        // }
 
     }
 }
