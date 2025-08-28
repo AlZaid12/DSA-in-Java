@@ -51,7 +51,7 @@ public class loops {
         // System.out.println(sum);
 
       for(int i=1; i<=10; i++){
-        System.out.println( n+"*"+i);
+        System.out.println(n+"*"+i+"="+n*i);
       }
     }
 } 
